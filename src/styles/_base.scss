@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  background: #dde1e7;
+}
+
+.card{
+  background: #dde1e7;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #ffffff73, 
+              2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+button:focus{
+  color: #3498db;
+  box-shadow: inset 2px 2px 5px #babecc, 
+              inset -5px -5px 10px #ffffff73;
+}
+
+button{
+  margin: 15px 0;
+  width: 100%;
+  height: 50px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  background: #dde1e7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+
+.button_primary {
+  background: #00c431;
+  color: #dde1e7;
+}
+
+.button_primary:focus{
+  color: #313131;
+  box-shadow: inset 2px 2px 5px #babecc, 
+              inset -5px -5px 10px #ffffff73;
+}

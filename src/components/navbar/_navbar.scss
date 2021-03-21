@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar__title {
+  font-size: $m-size;
+  top: 10px;
+  font-weight: bold;
+}
